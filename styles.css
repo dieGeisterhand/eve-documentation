@@ -1,10 +1,44 @@
+@font-face {
+  font-family: 'Shentox';
+  src: url('/fonts/shentox/Shentox.ttf') format('truetype');
+  font-weight: normal; /* or 400 */
+}
+
+@font-face {
+  font-family: 'Shentox';
+  src: url('/fonts/shentox/Shentox-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Shentox';
+  src: url('/fonts/shentox/Shentox-Bold.ttf') format('truetype');
+  font-weight: bold; /* or 700 */
+}
+
+@font-face {
+  font-family: 'Shentox';
+  src: url('/fonts/shentox/Shentox-Thin.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Shentox';
+  src: url('/fonts/shentox/Shentox-UltraLight.ttf') format('truetype');
+  font-weight: 200;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Shentox', sans-serif;
   margin: 0;
+}
+
+.test {
+  font-weight: 200;
 }
 
 main {
