@@ -16,18 +16,29 @@ body {
   font-size: 75px;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.caution-bar {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: none;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 2rem, var(--elements) 2rem, var(--elements) 4rem);
 }
 
 
 .sign {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
   width: 650px;
   padding: 0 30px 0 30px;
 }
 
-.title{
+.title {
   display: flex;
   border: 5px solid var(--elements);
   border-right: none;
@@ -65,24 +76,3 @@ img {
 }
 
 
-
-.caution-bar,
-.caution-bar2 {
-  display: flex;
-  height: 135px;
-  width: 100%;
-  margin: none;
-  background-image: 
-    repeating-linear-gradient(-45deg,
-    transparent, transparent 2rem, 
-    var(--elements) 2rem, 
-    var(--elements) 4rem);
-}
-
-.caution-bar {
-  margin-bottom: 50px;
-}
-
-.caution-bar2 {
-  margin-top: 50px
-}
