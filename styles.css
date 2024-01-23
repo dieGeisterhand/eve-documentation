@@ -22,17 +22,16 @@ body {
   background-image: url(bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden;
   overflow-y: hidden;
 }
 
 .sign {
   display: flex;
   flex-direction: column;
-  background-color: rgb(173, 173, 173);
+  background-color: var(--background);
   width: 40vw;
-  padding: 1vw;
-  margin: 2vw;
+  padding: 2vw;
+  margin: 1vw;
   margin-left: auto;
 }
 
@@ -41,8 +40,7 @@ body {
   border: 0.5vw solid var(--elements);
   border-right: none;
   border-left: none;
-  margin: 0 auto;
-  padding: 0 2vw;
+  padding: 0 6vw 0 6vw;
 }
 
 .subtitle {
@@ -58,7 +56,7 @@ body {
 .message,
 .message2 {
   display: inline-block;
-  padding: 0 0 0 4vw;
+  padding: 0 0 0 3vw;
   line-height: 5vw;
 }
 
