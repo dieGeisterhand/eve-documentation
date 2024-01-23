@@ -71,3 +71,14 @@ img {
   margin-top: 2vw;
   padding: 0 1.5vw 0 0;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .sign{ 
+    padding: 100vw 2vw 100vw 2vw;
+
+  }
+
+
+}
