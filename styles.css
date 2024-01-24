@@ -24,7 +24,6 @@ body {
   repeating-linear-gradient(-45deg, transparent, transparent 2rem, var(--elements) 2rem, var(--elements) 4rem);
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-y: hidden;
   overscroll-behavior: none;
   overflow: hidden;
 }
@@ -101,7 +100,6 @@ img {
     background-image: url(bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: auto;
     overscroll-behavior: none;
   }
 
@@ -127,6 +125,8 @@ img {
     padding: 80vw 1.3333vw; /* Converted from 1600px 8px to relative sizes */
     margin: 1vw;
     margin-left: auto;
+    overflow: hidden;
+    overscroll-behavior: none;
   }
   
   .title {
