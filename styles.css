@@ -26,6 +26,12 @@ body {
   overflow-y: hidden;
 }
 
+.separation {
+  border:  2px dashed var(--elements);
+  margin: 25px 0 25px 0;
+}
+
+
 .sign {
   display: flex;
   flex-direction: column;
@@ -78,12 +84,75 @@ img {
 }
 
 @media only screen and (max-width: 480px) {
+  body {
+    font-family: 'ombudsman', sans-serif;
+    background-color: var(--background);
+    color: var(--elements);
+    font-size: 4vw; /* Adjusted back to relative size */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+  }
+  
+  .separation {
+    border: 2px dashed var(--elements);
+    margin: 1.5625vw 0 1.5625vw 0; /* Converted from 25px to relative size */
+  }
+  
   .sign {
     display: flex;
     flex-direction: column;
     background-color: var(--sign-background);
-    width: 400px; /* Adjusted from 40vw to pixel value */
-    padding: 8px; /* Adjusted from 2vw to pixel value */
+    width: 37.5vw; /* Converted from 600px to relative size */
+    padding: 80vw 1.3333vw; /* Converted from 1600px 8px to relative sizes */
     margin: 1vw;
+    margin-left: auto;
+  }
+  
+  .title {
+    display: flex;
+    border: 0.75vw solid var(--elements); /* Converted from 3px to relative size */
+    border-right: none;
+    border-left: none;
+    padding: 0 12vw; /* Converted from 96px to relative size */
+  }
+  
+  .subtitle {
+    width: 19vw; /* Converted from 380px to relative size */
+    padding: 0 0 0 4.5vw; /* Converted from 36px to relative size */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .message,
+  .message2 {
+    display: inline-block;
+    padding: 0 0 0 4.5vw; /* Converted from 36px to relative size */
+    line-height: 3.25vw; /* Converted from 65px to relative size */
+  }
+  
+  .message {
+    margin: 1.125vw 0 0 0; /* Converted from 18px to relative size */
+  }
+  
+  .message2 {
+    margin: -15.625vw 0 0 0; /* Converted from -195px to relative size */
+    border-bottom: 0.9375vw solid var(--elements); /* Converted from 3px to relative size */
+  }
+  
+  img {
+    height: 26.6667vw; /* Converted from 400px to relative size */
+    width: auto;
+    margin-top: 1.25vw; /* Converted from 20px to relative size */
+    padding: 0 1.0417vw; /* Converted from 7.5px to relative size */
   }
 }
