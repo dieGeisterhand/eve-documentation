@@ -91,7 +91,7 @@ img {
     color: var(--elements);
     font-size: 4vw; /* Adjusted back to relative size */
     margin: 0;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
