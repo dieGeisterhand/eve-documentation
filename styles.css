@@ -14,7 +14,11 @@ body {
   font-family: 'ombudsman', sans-serif;
   background-color: var(--background);
   color: var(--elements);
+<<<<<<< HEAD
   font-size: 4vw;
+=======
+  font-size: 80px;
+>>>>>>> parent of a55a196 (YOU, CENTER YOURSELF)
   margin: 0;
   height: 100vh;
   display: flex;
@@ -26,6 +30,7 @@ body {
   overflow-y: hidden;
 }
 
+<<<<<<< HEAD
 .sign {
   display: flex;
   flex-direction: column;
@@ -37,6 +42,22 @@ body {
 }
 
 .title {
+=======
+.sign-content {
+  display: flex;
+  margin: 0 auto;
+  width: 650px;
+  padding: 0 30px 0 30px;
+}
+
+.sign {
+  display: flex;
+  flex-direction: column; /* Align children vertically */
+  margin: 25px;
+}
+
+.title{
+>>>>>>> parent of a55a196 (YOU, CENTER YOURSELF)
   display: flex;
   border: 0.5vw solid var(--elements);
   border-right: none;
@@ -83,4 +104,15 @@ img {
   }
 
 
+<<<<<<< HEAD
+=======
+.caution-bar,
+.caution-bar2 {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  margin: none;
+  background-image: 
+    repeating-linear-gradient(-45deg, transparent, transparent 2rem, var(--elements) 2rem, var(--elements) 4rem);
+>>>>>>> parent of a55a196 (YOU, CENTER YOURSELF)
 }
