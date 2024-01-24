@@ -17,12 +17,10 @@ body {
 .sign {
   display: flex;
   flex-direction: column;
-  background-color: var(--sign-background);
-  width: 400px;
-  padding: 16px 8px;
-  margin: 1vw;
-  margin-left: auto;
-  border-bottom: 2px dashed var(--background);
+  background-color: rgb(173, 173, 173);
+  width: 650px;
+  padding: 30px 30px 30px 30px;
+  margin: 50px;
 }
 
 .title {
