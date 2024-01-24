@@ -99,6 +99,13 @@ img {
     background-size: cover;
     overflow-y: hidden;
   }
+
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
   
   .separation {
     border: 2px dashed var(--elements);
