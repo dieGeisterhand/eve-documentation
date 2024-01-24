@@ -60,7 +60,7 @@ body {
 
 .subtitle {
   width: 380px; /* Adjusted from 38vw to pixel value */
-  padding: 0 0 0 36px; /* Adjusted from 0 0 0 3vw to pixel values */
+  padding: 20px 0 0 36px; /* Adjusted from 0 0 0 3vw to pixel values */
 }
 
 .row {
@@ -135,7 +135,7 @@ img {
   
   .subtitle {
     width: 19vw; /* Converted from 380px to relative size */
-    padding: 0 0 0 4.5vw; /* Converted from 36px to relative size */
+    padding: 2vw 0 0 4.5vw; /* Converted from 36px to relative size */
   }
   
   .row {
