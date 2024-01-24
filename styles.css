@@ -93,7 +93,6 @@ img {
     color: var(--elements);
     font-size: 4vw; /* Adjusted back to relative size */
     margin: 0;
-    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,8 +116,6 @@ img {
     padding: 80vw 1.3333vw; /* Converted from 1600px 8px to relative sizes */
     margin: 1vw;
     margin-left: auto;
-    overflow: hidden;
-    overscroll-behavior: none;
   }
   
   .title {
