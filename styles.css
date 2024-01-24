@@ -1,24 +1,8 @@
-@font-face {
-  font-family: 'ombudsman';
-  src: url('./fonts/ombudsman/Ombudsman.otf') format('truetype');
-  font-weight: normal;
-}
-
-:root {
-  --elements: rgb(57, 52, 49);
-  --background: rgb(189, 158, 67);
-  --sign-background: rgb(173, 173, 173);
-}
-
 body {
   font-family: 'ombudsman', sans-serif;
   background-color: var(--background);
   color: var(--elements);
-<<<<<<< HEAD
-  font-size: 4vw;
-=======
-  font-size: 80px;
->>>>>>> parent of a55a196 (YOU, CENTER YOURSELF)
+  font-size: 20px;
   margin: 0;
   height: 100vh;
   display: flex;
@@ -30,44 +14,28 @@ body {
   overflow-y: hidden;
 }
 
-<<<<<<< HEAD
 .sign {
   display: flex;
   flex-direction: column;
   background-color: var(--sign-background);
-  width: 40vw;
-  padding: 2vw;
+  width: 400px;
+  padding: 16px 8px;
   margin: 1vw;
   margin-left: auto;
+  border-bottom: 2px dashed var(--background);
 }
 
 .title {
-=======
-.sign-content {
   display: flex;
-  margin: 0 auto;
-  width: 650px;
-  padding: 0 30px 0 30px;
-}
-
-.sign {
-  display: flex;
-  flex-direction: column; /* Align children vertically */
-  margin: 25px;
-}
-
-.title{
->>>>>>> parent of a55a196 (YOU, CENTER YOURSELF)
-  display: flex;
-  border: 0.5vw solid var(--elements);
+  border: 1px solid var(--elements);
   border-right: none;
   border-left: none;
-  padding: 0 6vw 0 6vw;
+  padding: 0 48px;
 }
 
 .subtitle {
-  width: 38vw;
-  padding: 0 0 0 3vw;
+  width: 380px;
+  padding: 0 12px;
 }
 
 .row {
@@ -78,19 +46,19 @@ body {
 .message,
 .message2 {
   display: inline-block;
-  padding: 0 0 0 3vw;
-  line-height: 5vw;
+  padding: 0 12px;
+  line-height: 100px;
 }
 
 .message2 {
-  margin: -15vw 0 0 0;
+  margin: -60px 0 0 0;
 }
 
 img {
-  height: 30vw;
+  height: 300px;
   width: auto;
-  margin-top: 2vw;
-  padding: 0 1.5vw 0 0;
+  margin-top: 20px;
+  padding: 0 7.5px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -98,21 +66,8 @@ img {
     display: flex;
     flex-direction: column;
     background-color: var(--sign-background);
-    width: 40vw;
-    padding: 2vw;
+    width: 400px;
+    padding: 8px;
     margin: 1vw;
   }
-
-
-<<<<<<< HEAD
-=======
-.caution-bar,
-.caution-bar2 {
-  display: flex;
-  height: 150px;
-  width: 100%;
-  margin: none;
-  background-image: 
-    repeating-linear-gradient(-45deg, transparent, transparent 2rem, var(--elements) 2rem, var(--elements) 4rem);
->>>>>>> parent of a55a196 (YOU, CENTER YOURSELF)
 }
