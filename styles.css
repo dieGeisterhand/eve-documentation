@@ -24,6 +24,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden;
+  overscroll-behavior: none;
 }
 
 .separation {
@@ -38,7 +39,7 @@ body {
   background-color: var(--sign-background);
   width: 600px; /* Adjusted from 40vw to pixel value */
   padding: 1600px 8px; /* Adjusted from 800vw 2vw 800vw 2vw to pixel values */
-  margin: 500px;
+  margin: 100px;
   margin-left: auto;
 }
 
@@ -98,6 +99,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: hidden;
+    overscroll-behavior: none;
   }
 
   html, body {
