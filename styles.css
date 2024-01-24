@@ -38,7 +38,6 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--sign-background);
-  max-height: 100%;
   width: 600px; /* Adjusted from 40vw to pixel value */
   padding: 8px; /* Adjusted from 800vw 2vw 800vw 2vw to pixel values */
   margin: 100px;
@@ -98,7 +97,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(bg.webp);
+    background-image: 
+    repeating-linear-gradient(-45deg, transparent, transparent 2rem, var(--elements) 2rem, var(--elements) 4rem);
     background-repeat: no-repeat;
     background-size: cover;
     overscroll-behavior: none;
@@ -123,6 +123,7 @@ img {
     flex-direction: column;
     background-color: var(--sign-background);
     width: 37.5vw; /* Converted from 600px to relative size */
+    height: fit-content;
     padding: 80vw 1.3333vw; /* Converted from 1600px 8px to relative sizes */
     margin: 1vw;
     margin-left: auto;
