@@ -101,11 +101,11 @@ img {
     background-image: url(bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: hidden;
+    overflow: auto;
     overscroll-behavior: none;
   }
 
-  html, body {
+  html {
     overflow: hidden;
     height: 100%;
   }
