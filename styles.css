@@ -14,7 +14,7 @@ body {
   font-family: 'ombudsman', sans-serif;
   background-color: var(--background);
   color: var(--elements);
-  font-size: 50px; /* Adjusted from 4vw to pixel value */
+  font-size: 50px;
   margin: 0;
   height: 100vh;
   display: flex;
@@ -38,19 +38,19 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--sign-background);
-  width: 600px; /* Adjusted from 40vw to pixel value */
-  padding: 8px; /* Adjusted from 800vw 2vw 800vw 2vw to pixel values */
+  width: 600px;
+  padding: 8px;
   margin: 100px;
   margin-left: auto;
 }
 
 .title, .title2 {
   display: flex;
-  border: 3px solid var(--elements); /* Adjusted from 0.5vw to pixel value */
+  border: 3px solid var(--elements);
   margin: 0 auto;
   border-right: none;
   border-left: none;
-  padding: 0 96px; /* Adjusted from 6vw to pixel value */
+  padding: 0 96px;
 }
 
 .title2 {
@@ -59,8 +59,8 @@ body {
 }
 
 .subtitle {
-  width: 380px; /* Adjusted from 38vw to pixel value */
-  padding: 20px 0 0 36px; /* Adjusted from 0 0 0 3vw to pixel values */
+  width: 380px;
+  padding: 20px 0 0 36px;
 }
 
 .row {
@@ -71,8 +71,8 @@ body {
 .message,
 .message2 {
   display: inline-block;
-  padding: 0 0 0 36px; /* Adjusted from 0 0 0 3vw to pixel values */
-  line-height: 65px; /* Adjusted from 5vw to pixel value */
+  padding: 0 0 0 36px;
+  line-height: 65px;
 }
 
 .message {
@@ -80,15 +80,15 @@ body {
 }
 
 .message2 {
-  margin: -195px 0 0 0; /* Adjusted from -15vw to pixel value */
-  border-bottom: 3px solid var(--elements); /* Adjusted from 0.5vw to pixel value */
+  margin: -195px 0 0 0;
+  border-bottom: 3px solid var(--elements);
 }
 
 img {
-  height: 400px; /* Adjusted from 30vw to pixel value */
+  height: 400px;
   width: auto;
-  margin-top: 20px; /* Adjusted from 2vw to pixel value */
-  padding: 0px 50px 0 0; /* Adjusted from 0 1.5vw 0 0 to pixel values */
+  margin-top: 20px;
+  padding: 0px 50px 0 0;
 }
 
 @media only screen and (max-width: 480px) {
@@ -96,7 +96,7 @@ img {
     font-family: 'ombudsman', sans-serif;
     background-color: var(--background);
     color: var(--elements);
-    font-size: 4vw; /* Adjusted back to relative size */
+    font-size: 4vw;
     margin: 0;
     display: flex;
     align-items: center;
@@ -107,25 +107,25 @@ img {
   
   .separation {
     border: 2px dashed var(--elements);
-    margin: 1.5625vw 0 1.5625vw 0; /* Converted from 25px to relative size */
+    margin: 1.5625vw 0 1.5625vw 0;
   }
   
   .sign {
     display: flex;
     flex-direction: column;
     background-color: var(--sign-background);
-    width: 37.5vw; /* Converted from 600px to relative size */
-    padding: 80vw 1.3333vw; /* Converted from 1600px 8px to relative sizes */
+    width: 37.5vw;
+    padding: 80vw 1.3333vw;
     margin: 1vw;
     margin-left: auto;
   }
   
   .title, .title2 {
     display: flex;
-    border: 0.75vw solid var(--elements); /* Converted from 3px to relative size */
+    border: 0.75vw solid var(--elements);
     border-right: none;
     border-left: none;
-    padding: 0 12vw; /* Converted from 96px to relative size */
+    padding: 0 12vw;
   }
 
   .title2 {
@@ -134,8 +134,8 @@ img {
   }
   
   .subtitle {
-    width: 19vw; /* Converted from 380px to relative size */
-    padding: 2vw 0 0 4.5vw; /* Converted from 36px to relative size */
+    width: 19vw;
+    padding: 2vw 0 0 4.5vw;
   }
   
   .row {
@@ -145,15 +145,15 @@ img {
   
   .message {
     display: inline-block;
-    padding: 0 0 0 4.5vw; /* Converted from 36px to relative size */
-    line-height: 3.25vw; /* Converted from 65px to relative size */
-    margin: 1.125vw 0 0 0; /* Converted from 18px to relative size */
+    padding: 0 0 0 4.5vw;
+    line-height: 3.25vw;
+    margin: 1.125vw 0 0 0;
   }
   
   img {
-    height: 26.6667vw; /* Converted from 400px to relative size */
+    height: 26.6667vw;
     width: auto;
-    margin-top: 1.25vw; /* Converted from 20px to relative size */
-    padding: 0 2.5vw 0 0; /* Converted from 7.5px to relative size */
+    margin-top: 1.25vw;
+    padding: 0 2.5vw 0 0;
   }
 }
