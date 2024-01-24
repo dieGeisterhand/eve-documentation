@@ -44,13 +44,18 @@ body {
   margin-left: auto;
 }
 
-.title {
+.title, .title2 {
   display: flex;
   border: 3px solid var(--elements); /* Adjusted from 0.5vw to pixel value */
   margin: 0 auto;
   border-right: none;
   border-left: none;
   padding: 0 96px; /* Adjusted from 6vw to pixel value */
+}
+
+.title2 {
+  width: 336.85px;
+  border-bottom: none;
 }
 
 .subtitle {
@@ -115,12 +120,17 @@ img {
     margin-left: auto;
   }
   
-  .title {
+  .title, .title2 {
     display: flex;
     border: 0.75vw solid var(--elements); /* Converted from 3px to relative size */
     border-right: none;
     border-left: none;
     padding: 0 12vw; /* Converted from 96px to relative size */
+  }
+
+  .title2 {
+    width: 336.85px;
+    border-bottom: none;
   }
   
   .subtitle {
@@ -133,20 +143,11 @@ img {
     justify-content: space-between;
   }
   
-  .message,
-  .message2 {
+  .message {
     display: inline-block;
     padding: 0 0 0 4.5vw; /* Converted from 36px to relative size */
     line-height: 3.25vw; /* Converted from 65px to relative size */
-  }
-  
-  .message {
     margin: 1.125vw 0 0 0; /* Converted from 18px to relative size */
-  }
-  
-  .message2 {
-    margin: -15.625vw 0 0 0; /* Converted from -195px to relative size */
-    border-bottom: 0.9375vw solid var(--elements); /* Converted from 3px to relative size */
   }
   
   img {
