@@ -25,6 +25,7 @@ body {
   background-size: cover;
   overflow-y: hidden;
   overscroll-behavior: none;
+  overflow: hidden;
 }
 
 .separation {
