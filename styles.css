@@ -20,7 +20,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(bg.webp);
+  background-image: 
+  repeating-linear-gradient(-45deg, transparent, transparent 2rem, var(--elements) 2rem, var(--elements) 4rem);
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden;
@@ -47,6 +48,7 @@ body {
 .title {
   display: flex;
   border: 3px solid var(--elements); /* Adjusted from 0.5vw to pixel value */
+  margin: 0 auto;
   border-right: none;
   border-left: none;
   padding: 0 96px; /* Adjusted from 6vw to pixel value */
@@ -104,12 +106,10 @@ img {
   }
 
   html, body {
-    overflow-x: hidden;
-    width: 100%;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    overflow: hidden;
+    height: 100%;
   }
+
   body {
     position: relative
   }
