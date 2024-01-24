@@ -38,8 +38,9 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--sign-background);
+  max-height: 100%;
   width: 600px; /* Adjusted from 40vw to pixel value */
-  padding: 1600px 8px; /* Adjusted from 800vw 2vw 800vw 2vw to pixel values */
+  padding: 8px; /* Adjusted from 800vw 2vw 800vw 2vw to pixel values */
   margin: 100px;
   margin-left: auto;
 }
